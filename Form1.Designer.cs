@@ -147,6 +147,11 @@ namespace FileArchiver
             // numDaysBack
             // 
             this.numDaysBack.Location = new System.Drawing.Point(3, 105);
+            this.numDaysBack.Maximum = new decimal(new int[] {
+            11688,
+            0,
+            0,
+            0});
             this.numDaysBack.Name = "numDaysBack";
             this.numDaysBack.Size = new System.Drawing.Size(120, 22);
             this.numDaysBack.TabIndex = 4;
